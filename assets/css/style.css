@@ -1,0 +1,32 @@
+body {
+    color: #ffc107;
+    background: url("../images/background/queen team.png") center/cover no-repeat;
+}
+
+header .col {
+    padding: 0;
+}
+
+#nav {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+    background-color: #0b2e13;
+    font-size: 25px;
+}
+
+#nav li {
+    height: 55px;
+    white-space: nowrap;
+    margin: 0;
+    padding: 8px 0 0 0;
+}
+
+a:hover, a:link, a:visited, a:active {
+    text-decoration: none;
+    color: #ffc107;
+}
+
+footer {
+    background-color: #0b2e13;
+}
