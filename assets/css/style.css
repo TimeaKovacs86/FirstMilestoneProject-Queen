@@ -1,6 +1,7 @@
 body {
     color: #ffc107;
-    background: url("../images/background/queen team.png") center/cover no-repeat;
+    /*background: url("../images/background/") center/cover no-repeat;*/
+    /*background-position-y: -80px;*/
 }
 
 header .col {
@@ -9,6 +10,7 @@ header .col {
 
 #nav {
     width: 100%;
+    margin: 0;
     padding: 0;
     text-align: center;
     background-color: #0b2e13;
@@ -27,6 +29,15 @@ a:hover, a:link, a:visited, a:active {
     color: #ffc107;
 }
 
+.image-container {
+    padding: 0;
+}
+
+.image-container img {
+    width: 100%;
+}
+
 footer {
     background-color: #0b2e13;
 }
+
