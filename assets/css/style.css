@@ -41,3 +41,9 @@ footer {
     background-color: #0b2e13;
 }
 
+@media (max-width:400px) {
+    #nav {
+        font-size: 22px;
+    }
+
+}
