@@ -1,5 +1,5 @@
 body {
-    color: #ffc107;
+    color: #43faff;
 
 }
 
@@ -30,8 +30,8 @@ a:hover, a:link, a:visited, a:active {
 
 .band-container img {
     border-radius: 100%;
-    height: 350px;
-    width: 250px;
+    height: 255px;
+    width: 255px;
 }
 
 .image-container {
@@ -42,13 +42,79 @@ a:hover, a:link, a:visited, a:active {
     width: 100%;
 }
 
+.band-member {
+    width: 100%;
+    padding: 15px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.member-bio {
+    background-color: rgba(78, 85, 91, 0.8);
+    border-radius: 25px;
+}
+
+.band-container img {
+    float: left;
+}
+
 footer {
     background-color: #0b2e13;
 }
 
-@media (max-width:400px) {
+@media (min-width: 1246px) {
+    .margin-left-large {
+        margin-top: 10px;
+        margin-right: 40px;
+        margin-bottom: 10px;
+        margin-left: 5%;
+    }
+
+    .margin-right-large {
+        margin-top: 10px;
+        margin-right: 5%;
+        margin-bottom: 10px;
+        margin-left: 40px;
+    }
+
+}
+
+@media (max-width: 1246px) {
+    .margin-left-large {
+        margin-top: 10px;
+        margin-right: 15px;
+        margin-bottom: 10px;
+        margin-left: 5%;
+    }
+
+    .margin-right-large {
+        margin-top: 10px;
+        margin-right: 5%;
+        margin-bottom: 10px;
+        margin-left: 15px;
+    }
+}
+
+@media (max-width: 475px) {
+    .band-member img {
+        float: none;
+
+    }
+
+    .member-bio {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 400px) {
     #nav {
         font-size: 22px;
     }
 
+    .member-bio {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
 }
+
