@@ -58,6 +58,40 @@ a:hover, a:link, a:visited, a:active {
     float: left;
 }
 
+.audio {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.audio-cover-picture img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+.audio-title-player {
+    height: 200px;
+}
+
+.audio-title-player p{
+    position: relative;
+    top: 30px;
+}
+
+.audio-title-player audio{
+    position: relative;
+    top: 50px;
+}
+
+.display-inline-block-setter {
+    display: inline-block;
+}
+
+.video {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
 footer {
     background-color: #0b2e13;
 }
@@ -78,6 +112,8 @@ footer {
     }
 
 }
+
+/*kell egy media @ a iframenek hogy responzive legyen*/
 
 @media (max-width: 1246px) {
     .margin-left-large {
