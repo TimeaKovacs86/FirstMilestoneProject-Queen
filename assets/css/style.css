@@ -40,6 +40,10 @@ a:hover, a:link, a:visited, a:active {
 
 /*The Band*/
 
+.row .band-member img {
+    padding-top: 15px;
+}
+
 .band-container img {
     border-radius: 100%;
     height: 255px;
