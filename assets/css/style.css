@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,600,700,800,900&display=swap');
+
 /*Home*/
 
 body {
+    font-family: 'Fira Sans', sans-serif;
     color: #953f3a;
     font-weight: bold;
 }
@@ -114,6 +117,29 @@ a:hover, a:link, a:visited, a:active {
     border-radius: 25px;
 }
 
+/*Contact*/
+
+form input {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.center-form {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.contact-heading {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
 footer {
     background-color: #0b2e13;
 }
@@ -167,7 +193,7 @@ footer {
 
 @media (max-width: 400px) {
     #nav {
-        font-size: 22px;
+        font-size: 18px;
     }
 
     .member-bio {
