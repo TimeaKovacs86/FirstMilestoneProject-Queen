@@ -3,8 +3,9 @@
 /*Home*/
 
 body {
+    background: url("../images/background/fm-background.jpg") center/cover no-repeat;
     font-family: 'Fira Sans', sans-serif;
-    color: #953f3a;
+    color: silver;
     font-weight: bold;
 }
 
@@ -13,11 +14,11 @@ header .col {
 }
 
 #nav {
+    background-color: #0c023e;
     width: 100%;
     margin: 0;
     padding: 0;
     text-align: center;
-    background-color: #0b2e13;
     font-size: 25px;
 }
 
@@ -30,7 +31,7 @@ header .col {
 
 a:hover, a:link, a:visited, a:active {
     text-decoration: none;
-    color: #ffc107;
+    color: silver;
 }
 
 /*The Band*/
@@ -103,6 +104,12 @@ a:hover, a:link, a:visited, a:active {
 
 /*Events*/
 
+.country-year {
+    font-size: 40px;
+    margin-top: 10px;
+    border-bottom: 5px solid silver;
+}
+
 .event-grid {
     text-align: center;
     padding: 0;
@@ -110,11 +117,18 @@ a:hover, a:link, a:visited, a:active {
 }
 
 .grid-item {
+    font-size: 25px;
     text-align: center;
     display: inline-block;
     padding: 0;
-    background-color: #185b30;
-    border-radius: 25px;
+}
+
+.buy {
+    padding: 0;
+}
+
+.btn-info {
+    margin-bottom: 5px;
 }
 
 /*Contact*/
@@ -134,14 +148,15 @@ form input {
     margin-bottom: 20px;
 }
 
-.btn {
+form .btn {
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
-
 footer {
-    background-color: #0b2e13;
+    background-color: #0c023e;
+    color: silver;
+    margin-top: 20px;
 }
 
 @media (min-width: 1246px) {
@@ -179,6 +194,13 @@ footer {
     }
 }
 
+@media (max-width: 767px) {
+    iframe {
+        width: 300px;
+        height: 200px;
+    }
+}
+
 @media (max-width: 475px) {
     .band-member img {
         float: none;
@@ -188,6 +210,38 @@ footer {
     .member-bio {
         margin-top: 10px;
         margin-bottom: 10px;
+    }
+
+    .country-year {
+        font-size: 25px;
+    }
+
+    .grid-item {
+        font-size: 18px;
+    }
+
+    .stadium {
+        display: none;
+    }
+
+    .btn-info {
+        padding: 0;
+        font-size: 16px;
+    }
+
+    .center-form {
+    width: 80%;
+}
+    .contact-heading {
+        font-size: 20px;
+    }
+
+    .detail-demand {
+        font-size: 18px;
+    }
+
+    footer {
+        text-align: center;
     }
 }
 
