@@ -1,35 +1,68 @@
-# FirstMilestoneProject-Queen
-
-# Readme file
-
-# media
-
 
 favicon [link](http://www.queenonline.com/global/assets/modules/site/images/favicon.ico?fbclid=IwAR1-ETu3Vx7lzIk0q-3rmbszUlIUyzoHAMFJTbzVw0zOEoO7O80HyQNTw6Q)
 
-home page background picture:
+home page background picture: [link](https://parsseh.com/wp-content/uploads/2014/03/Queen-Band-640x378.jpg)
 
-other pages background picture: https://qulari.com/freddie-mercury.html?fbclid=IwAR3ntc9UwOwjGETLl_LWQmbMT-1WKWeo-Ihab-o-EQkonsKt5pFip_6WtqA
+other pages background picture: [link](https://qulari.com/freddie-mercury.html?fbclid=IwAR3ntc9UwOwjGETLl_LWQmbMT-1WKWeo-Ihab-o-EQkonsKt5pFip_6WtqA)
 
-band members profile pictures for the bio
-freddie profile picture: https://scontent-frx5-1.cdninstagram.com/vp/78c6ad1b15fa96452d7f1b7e0b34f6c0/5D65A9A0/t51.2885-15/e35/58410503_596331797443202_1143175526350109907_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com
-brian may profile picture:
-roger profile picture: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1FKC7r6dEG3-tar40noUhhrixlaa1V5jclWhJTE8gV5wpDoF1fg
-john profile picture: https://66.media.tumblr.com/c2638c610e07ef89ade1201b88e8e487/tumblr_piuo32zb4N1valwms_500.jpg
-album cover pictures:
-A night at the opera:
-The Game:
-Jazz:
-News of the World:
+- band members profile pictures for the bio
+    - freddie profile picture: [link](https://scontent-frx5-1.cdninstagram.com/vp/78c6ad1b15fa96452d7f1b7e0b34f6c0/5D65A9A0/t51.2885-15/e35/58410503_596331797443202_1143175526350109907_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com)
+    - brian may profile picture: [link](https://i.pinimg.com/736x/20/c0/1e/20c01e2a4155086e7b627cd1801f3794.jpg)
+    - roger profile picture: [link](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1FKC7r6dEG3-tar40noUhhrixlaa1V5jclWhJTE8gV5wpDoF1fg)
+    - john profile picture: [link](https://66.media.tumblr.com/c2638c610e07ef89ade1201b88e8e487/tumblr_piuo32zb4N1valwms_500.jpg)
 
 
+- album cover pictures:
+    - A night at the opera: [link](https://en.wikipedia.org/wiki/A_Night_at_the_Opera_(Queen_album)#/media/File:Queen_A_Night_At_The_Opera.png)
+    - The Game: [link](https://upload.wikimedia.org/wikipedia/en/thumb/1/16/Queen_The_Game.png/220px-Queen_The_Game.png)
+    - Jazz: [link](https://upload.wikimedia.org/wikipedia/en/thumb/0/06/Queen_Jazz.png/220px-Queen_Jazz.png)
+    - News of the World: [link](https://en.wikipedia.org/wiki/News_of_the_World_(album)#/media/File:Queen_News_Of_The_World.png)
 
-# Your Project's Name
 
-One or two paragraphs providing an overview of your project.
 
-Essentially, this part is your sales pitch.
+# Queen 
+
+## About the Project:
+
+This website was made as my first Milestone project at Code Institute. My goal was to create a responsive, user centric frontend website using the HTML5 and CSS3 technologies. On this website the user can navigate between the pages easily and they can use the website on every device as a result of responsive design and implementation.
+
+ - During this project I had to create a website for a band, and my choice was the rock-band Queen. Since the website is a static (front-end-only) site, we have narrow options to use it:
+   - Check the website on every device easily
+   - Navigate between the pages
+   - Find information about the band members
+   - Listen few of the most famous songs of the band and watch video clip ( I choose this video because it's a live concert video from the year I was born in the city where my family lives.) 
+   - Get information about their tour:
+     - When will be the next concerts
+     - Where will be the next concerts
+     - We are able to navigate to the websites where we can actually buy ticket to those concerts with the buy ticket button on the events page
+   - Send request for the band if we would like to invite them or ask them to participate in charity or fund events
+   - Check the band social sites
+
  
+## Mockups 
+
+**Created with [Balsamiq Mockups 3](https://balsamiq.com/) that is a user interface design tool**
+
+ - **Home Page**:
+ 
+![QueenHomePage](assets/mockups/Queen_mockups/QueenHomePage.png)
+
+ - **The Band Page**:
+ 
+[QueenTheBandPage](assets/mockups/Queen_mockups/QueenTheBandPage.png)
+
+ - **Music Page**:
+ 
+[QueenMusicPage](assets/mockups/Queen_mockups/QueenMusicPage.png)
+
+ - **Events Page**:
+   
+[QueenEventsPage](assets/mockups/Queen_mockups/QueenEventsPage.png)
+
+ - **Contact**:
+ 
+[QueenContactPage](assets/mockups/Queen_mockups/QueenContactPage.png) 
+  
 ## UX
  
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
@@ -41,22 +74,47 @@ This section is also where you would share links to any wireframes, mockups, dia
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
- 
+Because of lack of technology and knowledge (learned only HTML5, CSS3) you only can navigate between the pages and you can reach the outer social sites, as well the actual ticket selling websites for the bands upcoming events. The main feature for thsi project is the responsive design and implementation of the user centric development.
+
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+ - Responsive:
+   - Every page is responsive, usable and looks good on the below resolution:
+     - Phones less than 768px
+     - Tablets 768px and over
+     - Desktops 992px and over
+     - Large desktops 1200px and over
+ 
+ 
+ - Social links
+   - Every icon of the social section is a link to the band official site on that social media site (will open in a new browser window):
+     - Facebook
+     - Twitter
+     - Youtube
+     - Spotify
+     - Instagram
+     
+ - Hover effects:
+   - On the navigation elements
+   - On the buttons
+   - On the social links 
+   
+ - Buy tickets:
+   - Works as a link to the ticket selling website
+   
+ - Send Request:
+   - Required fields, mandatory and required format when you fill the form and want to send it        
+ 
+     
 
 ### Features Left to Implement
-- Another feature idea
+
+ - "Send Request"function need to have JavaScript and jQuery technology.
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+ 
+     
 
 - [JQuery](https://jquery.com)
     - The project uses **JQuery** to simplify DOM manipulation.
