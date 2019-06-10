@@ -1,25 +1,3 @@
-
-favicon [link](http://www.queenonline.com/global/assets/modules/site/images/favicon.ico?fbclid=IwAR1-ETu3Vx7lzIk0q-3rmbszUlIUyzoHAMFJTbzVw0zOEoO7O80HyQNTw6Q)
-
-home page background picture: [link](https://parsseh.com/wp-content/uploads/2014/03/Queen-Band-640x378.jpg)
-
-other pages background picture: [link](https://qulari.com/freddie-mercury.html?fbclid=IwAR3ntc9UwOwjGETLl_LWQmbMT-1WKWeo-Ihab-o-EQkonsKt5pFip_6WtqA)
-
-- band members profile pictures for the bio
-    - freddie profile picture: [link](https://scontent-frx5-1.cdninstagram.com/vp/78c6ad1b15fa96452d7f1b7e0b34f6c0/5D65A9A0/t51.2885-15/e35/58410503_596331797443202_1143175526350109907_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com)
-    - brian may profile picture: [link](https://i.pinimg.com/736x/20/c0/1e/20c01e2a4155086e7b627cd1801f3794.jpg)
-    - roger profile picture: [link](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1FKC7r6dEG3-tar40noUhhrixlaa1V5jclWhJTE8gV5wpDoF1fg)
-    - john profile picture: [link](https://66.media.tumblr.com/c2638c610e07ef89ade1201b88e8e487/tumblr_piuo32zb4N1valwms_500.jpg)
-
-
-- album cover pictures:
-    - A night at the opera: [link](https://en.wikipedia.org/wiki/A_Night_at_the_Opera_(Queen_album)#/media/File:Queen_A_Night_At_The_Opera.png)
-    - The Game: [link](https://upload.wikimedia.org/wikipedia/en/thumb/1/16/Queen_The_Game.png/220px-Queen_The_Game.png)
-    - Jazz: [link](https://upload.wikimedia.org/wikipedia/en/thumb/0/06/Queen_Jazz.png/220px-Queen_Jazz.png)
-    - News of the World: [link](https://en.wikipedia.org/wiki/News_of_the_World_(album)#/media/File:Queen_News_Of_The_World.png)
-
-
-
 # Queen 
 
 ## About the Project:
@@ -62,19 +40,64 @@ This website was made as my first Milestone project at Code Institute. My goal w
  - **Contact**:
  
 [QueenContactPage](assets/mockups/Queen_mockups/QueenContactPage.png) 
-  
+
+## User Stories:
+
+### Navigation:
+
+ - As a user, I would like to use the navigation bar so I am able to reach every page of the website.
+
+ - As a user, I would like to use the "go back" and "go forward" browser button without any error so I can go back and front between the pages more easily.
+
+### Social links:
+
+ - As a user, I want to click on the social media links so I am able to open the official social media sites of the band in a new tab.
+
+### Responsive:
+
+ - As a user, I want to use the website with every resolution so that on different devices it will work with the same functionality. 
+
+### Effects:
+
+ - As a user, I would like to see the hover effect on the buttons so that I can see there is interaction with that element.
+
+ - As a user, I would like to see the hover effect on the social links so that I can see there is interaction with that element.
+
+ - As a user, I would like to see the hover effect on the navigation bar elements so that I can see that there ios an interaction with that element. 
+ 
+###Media:
+
+ - As a user, I would like to play and stop the audio files so I am capable of listening the music.
+ - As a user I would like to play and stop the video si I can watch the clip.
+
+###Purchase:
+ - As a user I would like to be able to use the "buy ticket" buttons so I can actually can buy tickets for the band events.
+ 
+### Field checking:
+ - As a user, I want to fill my details on the Contact page so I can send a request.
+ 
+ - As a user, I want to get notified if I missed to fill a field so I can finish to fill the form.
+ 
+ - As a user I want to get notified if I filled a field in a wrong way so that I can fix it and finish to fill the form.
+   
 ## UX
  
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+ - I used dark colors on the website, since the subject of this site is a rock band, I thought it would be credible to use black and dark shades as background colors for the navigation bar, footer as well as for the content, and use light color (silver) as an accent for the paragraphs and texts. 
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
-
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
-
+ - The dominant font family is "Fira Sans" which is a google font. I imported this font through the .css style file from the google fonts repository. Sans serif typefaces are considered more modern and include a variety of widths and shapes.The mood and feelings most associated with sans serif typefaces are modern, friendly, direct, clean and minimal, and this is what I was aiming for.
+ 
+ - I used the "font awesome" font and icon toolkit for the social media icons.
+ 
+ - Hover effets on those elements where there is interaction:
+   - Navigation
+   - Buy Ticket buttons
+   - Send Request button
+   - Social links
+ 
+ - Favicon (Shortcut icon) with "Q" sign on every page.  
 ## Features
 
-Because of lack of technology and knowledge (learned only HTML5, CSS3) you only can navigate between the pages and you can reach the outer social sites, as well the actual ticket selling websites for the bands upcoming events. The main feature for thsi project is the responsive design and implementation of the user centric development.
+Because of lack of technology and knowledge (learned only HTML5, CSS3) you only can navigate between the pages and you can reach the outer social sites, as well the actual ticket selling websites for the bands upcoming events. The main feature for this project is the responsive design and implementation of the user centric development.
 
 ### Existing Features
 
@@ -100,21 +123,33 @@ Because of lack of technology and knowledge (learned only HTML5, CSS3) you only 
    - On the social links 
    
  - Buy tickets:
-   - Works as a link to the ticket selling website
+   - Works as a link to the ticket selling website.
    
  - Send Request:
-   - Required fields, mandatory and required format when you fill the form and want to send it        
+   - Required fields, mandatory and required format when you fill the form and want to send it.        
  
      
 
 ### Features Left to Implement
 
- - "Send Request"function need to have JavaScript and jQuery technology.
+ - "Send Request" function need to have JavaScript and jQuery technology.
 
 ## Technologies Used
 
- 
-     
+- [HTML5](https://www.w3.org/html/)
+    -Hyoertext Markup Language is the standard markup language for creating web pages and web applications.
+   
+- [CSS3](https://www.w3.org/Style/CSS/)
+    - Cascading Style Sheets is a style sheet language used fro describing the presentation of a document written in a markup language like HTML.
+
+- [Bootstrap 4.3.1](https://getbootstrap.com/docs/4.3/) 
+    - Front End Framework for developing responsive websites.
+    
+- [Git](https://git-scm.com/)
+    - Git is a distributed version-control system for tracking changes in source code during sofware development.    
+
+- [GitHub](https://github.com/)
+    - GitHub Inc. is a web-based hosting service for version control using Git.     
 
 - [JQuery](https://jquery.com)
     - The project uses **JQuery** to simplify DOM manipulation.
@@ -122,24 +157,73 @@ Because of lack of technology and knowledge (learned only HTML5, CSS3) you only 
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+Thanks to the "GitHub Pages" option on the GitHub website everybody can reach my website through the below link:
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+https://timeakovacs86.github.io/FirstMilestoneProject-Queen/
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+I prefer the GitHub Pages option instead of the Cloud9 because it is stable and available 24/7.
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+**Test cases for the user stories:**
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+- Navigation
+  - Navigation (Navigation links)
+    - I am on the one page and I click on another one page's link so the expected page will be loaded.
+   Navigation ("Go back" and "Go forward" browser button)
+    - I am on the one page and I click on the another page's link. I click on the "go back" browser button and the expected page will be loaded without any error. 
+    After this I click on the "go forward" browser button and the expected page will be loaded without any error.   
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+- Social link
+    - I click on the <social_link> social link and the band's <social_link> page will open in a new tab.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+- Responsive
+    - I grab the edge of the browser and modify the resulution. After this the website is still usanle and looks good.
+    - Chrome developer tools: details below at the **Chrome Developer Tool** section
 
+- Effects
+    - I hover my mouse over the  navigation link,I can see the hover effect.
+    - I hover my mouse over the  social link and I can see the hover effect.
+    - I hover over the buy ticket button and I see the button hover effect. 
+    
+- Media
+    - I click on "play" button one of the music and it starts to play the music.
+    - While the music is playing I click on the stop button and the music stops.
+    - I click on the video player and the video starts to play.
+    - While the video is playing I click on the stop button and the video stops.
+    
+- Purchase
+    - I click on any of the "buy ticket" button the Events page, and it will open the actual website of the ticket selling company in a new tab in the browser where I can purchase the ticket for the event I was just choose to buy ticket for.     
+    
+- Field checking
+    - I fill the required fields and after clicking the "Send request" button, I can send my message. (At the moment the sending function is not working. Instead of that the page will reloaded).
+    - I fill the e-mail field without e-mail format and I get feedback about the wrong format.
+    - I miss the field and I get a notification that I missed to fill that field.  
+
+**Tested browsers:**
+ - Chrome
+ - Mozilla Firefox
+ - Microsoft Edge
+
+**Testing Tools:**
+ - Chrome browser built-in developer tool
+ - PC with HD resolution (with real usage)
+ - Mobile Phones: 
+    - Iphone SE
+    - OnePlus 6T
+
+**Chrome Developer Tool:**
+- With the "Responsive" option I made boundary testing on the edges where the resolution changed from:
+    - Large desktop to desktop (Tested pixel width values: 1201px, 1200px, 1199px)
+    - Desktop to tablet (Tested pixel width values: 993px, 992px, 991px)
+    - Tablet to phone (Tested pixel width values: 769px, 768px, 767px)
+- Phone and Tablet resolution
+    - Usage on the different device resolutions like "Pixel 2" and "iPad"
+- Console log error checking on every page during the testing
+ 
+**Testing people:**
+- Acquaintance
+- Friends
+- Myself  
+   
 ## Deployment
 
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
@@ -152,14 +236,45 @@ In particular, you should provide all details of the differences between the dep
 In addition, if it is not obvious, you should also describe how to run your code locally.
 
 
-## Credits
+## Content
 
-### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+### The text for the Band members was copied from:
+
+ - About Freddie Mercury:
+   - [Wikipedia article](https://en.wikipedia.org/wiki/Freddie_Mercury)
+ - About Brian May:
+   - [Wikipedia article](https://en.wikipedia.org/wiki/Brian_May) 
+ - About Roger Taylor:
+   - [Wikipedia article](https://en.wikipedia.org/wiki/Roger_Taylor_(Queen_drummer))
+ - About John Deacon:
+   - [Wikipedia article](https://en.wikipedia.org/wiki/John_Deacon)
+ 
+ - Favicon:
+   - [QueenOnline.com]((http://www.queenonline.com/global/assets/modules/site/images/favicon.ico?fbclid=IwAR1-ETu3Vx7lzIk0q-3rmbszUlIUyzoHAMFJTbzVw0zOEoO7O80HyQNTw6Q))      
 
 ### Media
-- The photos used in this site were obtained from ...
 
-### Acknowledgements
 
-- I received inspiration for this project from X
+Home page background picture: [link](https://parsseh.com/wp-content/uploads/2014/03/Queen-Band-640x378.jpg)
+
+Other pages background picture: [link](https://qulari.com/freddie-mercury.html?fbclid=IwAR3ntc9UwOwjGETLl_LWQmbMT-1WKWeo-Ihab-o-EQkonsKt5pFip_6WtqA)
+
+- Band members profile pictures for the bio
+    - Freddie Mercury profile picture: [link](https://scontent-frx5-1.cdninstagram.com/vp/78c6ad1b15fa96452d7f1b7e0b34f6c0/5D65A9A0/t51.2885-15/e35/58410503_596331797443202_1143175526350109907_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com)
+    - Brian May profile picture: [link](https://i.pinimg.com/736x/20/c0/1e/20c01e2a4155086e7b627cd1801f3794.jpg)
+    - Roger Taylor profile picture: [link](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1FKC7r6dEG3-tar40noUhhrixlaa1V5jclWhJTE8gV5wpDoF1fg)
+    - John Deacon profile picture: [link](https://66.media.tumblr.com/c2638c610e07ef89ade1201b88e8e487/tumblr_piuo32zb4N1valwms_500.jpg)
+
+
+- Album cover pictures:
+    - A night at the opera: [link](https://en.wikipedia.org/wiki/A_Night_at_the_Opera_(Queen_album)#/media/File:Queen_A_Night_At_The_Opera.png)
+    - The Game: [link](https://upload.wikimedia.org/wikipedia/en/thumb/1/16/Queen_The_Game.png/220px-Queen_The_Game.png)
+    - Jazz: [link](https://upload.wikimedia.org/wikipedia/en/thumb/0/06/Queen_Jazz.png/220px-Queen_Jazz.png)
+    - News of the World: [link](https://en.wikipedia.org/wiki/News_of_the_World_(album)#/media/File:Queen_News_Of_The_World.png)
+
+- Audio files:
+
+- Video file:
+
+### Assessment
+
