@@ -13,21 +13,31 @@ header .col {
     padding: 0;
 }
 
-#nav {
-    background-color: #0c023e;
-    width: 100%;
-    margin: 0;
+.navbar {
     padding: 0;
+}
+
+.navbar-brand {
+    color: silver;
+    padding-left: 5%;
+}
+
+#nav {
     text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #0c023e;
     font-size: 25px;
+    width: 100%;
 }
 
 #nav li {
-    height: 55px;
     white-space: nowrap;
+    height: 55px;
     margin: 0;
     padding: 8px 0 0 0;
 }
+
 
 a:hover, a:link, a:visited, a:active {
     text-decoration: none;
@@ -186,7 +196,6 @@ footer {
 
 }
 
-/*kell egy media @ a iframenek hogy responzive legyen*/
 
 @media (max-width: 1246px) {
     .margin-left-large {
@@ -204,10 +213,25 @@ footer {
     }
 }
 
+@media (min-width: 768px) {
+    .navbar-brand {
+        display: none;
+    }
+}
+
 @media (max-width: 767px) {
     iframe {
         width: 300px;
         height: 200px;
+    }
+}
+
+@media (max-width: 767px) {
+     #nav .list-inline-item {
+        display: block;}
+     .bg-dark {
+    background-color: #0c023e !important;
+
     }
 }
 
