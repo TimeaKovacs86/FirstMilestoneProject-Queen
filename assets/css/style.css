@@ -177,6 +177,45 @@ footer {
     margin-top: 20px;
 }
 
+.bold {
+    font-weight: bold;
+}
+
+.social-links .list-inline-item{
+    margin: 0 7px;
+}
+
+.fab {
+    border: 3px solid;
+    border-radius: 25%;
+    padding: 3px;
+}
+
+.facebook-color {
+    color: #4267b1;
+    background-color: white;
+}
+
+.twitter-color {
+    color: #1da0f1;
+    background-color: white;
+}
+
+.youtube-color {
+    color: #fd0001;
+    background-color: white;
+}
+
+.spotify-color {
+    color: #1ed660;
+    background-color: white;
+}
+
+.instagram-color {
+    color: #ba2d93;
+    background-color: white;
+}
+
 @media (min-width: 1246px) {
     .margin-left-large {
         margin-top: 10px;
@@ -214,6 +253,7 @@ footer {
     .navbar-brand {
         display: none;
     }
+
 
 }
 
@@ -292,3 +332,8 @@ footer {
     }
 }
 
+@media (max-width: 374px){
+    .fab {
+        padding: 1px;
+    }
+}
