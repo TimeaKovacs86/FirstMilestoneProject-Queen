@@ -65,12 +65,12 @@ This website was made as my first Milestone project at Code Institute. My goal w
 
  - As a user, I would like to see the hover effect on the navigation bar elements so that I can see that there ios an interaction with that element. 
  
-###Media:
+### Media:
 
  - As a user, I would like to play and stop the audio files so I am capable of listening the music.
  - As a user I would like to play and stop the video si I can watch the clip.
 
-###Purchase:
+### Purchase:
  - As a user I would like to be able to use the "buy ticket" buttons so I can actually can buy tickets for the band events.
  
 ### Field checking:
@@ -226,15 +226,34 @@ I prefer the GitHub Pages option instead of the Cloud9 because it is stable and 
    
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+How I implement this project:
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
 
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
+- **Set up**:
+    - I use local IDE for create the project, I installed the Git locally and synchronized my local IDE 
+    with the local git. I use IntelliJ Pycharm for the front end development with its helpful built in deployment tools. 
+    After I created a Git and GitHub repository, I could start to work and I could test my features locally.
+    I could see my changes locally to open my index.html file with the View/Open browser menu option in my local IDE.
+    Here I could choose the required browser which I want to use. (Chrome, Mozilla, etc.)
+- **Commits**:
+    - After every small piece and increment, I made commit to my local Git repository. After that in the end of the 
+    bigger section that gives value to my project I pushed my modification to my online GitHub repository.
+    - For the development I only use one branch called "master".
+- **Local and online deployment**
+    - Locally: It is very easy to clone repository from my account if you follow these steps:
+        1. Follow this link [Project GitHub repository](https://github.com/TimeaKovacs86/FirstMilestoneProject-Queen) 
+        2. Under the repository name, click "Clone or download".
+        3. Here you have to copy the url's of the repository
+        4. In your local IDE you can choose to create new project from version control/Git 
+        5. Paste the link there that you copied before
+        6. For additional help you can more information under this [link](https://help.github.com/en/articles/cloning-a-repository)
+        
+    - Online:
+        - When there was a working increment after pushing it to my online GitHub repository I could test it online with real usage.
+        For this I followed these steps:
+            1. Under [my project GitHub directory](https://github.com/TimeaKovacs86/FirstMilestoneProject-Queen) from the menu items I clicked on the Settings 
+            2. Under the GitHub Pages section I could set up my online site from my master branch.
+            3. After few minutes the online deployed site was available the given [link](https://timeakovacs86.github.io/FirstMilestoneProject-Queen/)
 
 ## Content
 
@@ -272,9 +291,9 @@ Other pages background picture: [link](https://qulari.com/freddie-mercury.html?f
     - Jazz: [link](https://upload.wikimedia.org/wikipedia/en/thumb/0/06/Queen_Jazz.png/220px-Queen_Jazz.png)
     - News of the World: [link](https://en.wikipedia.org/wiki/News_of_the_World_(album)#/media/File:Queen_News_Of_The_World.png)
 
-- Audio files:
+- Audio files: Since I have the original Queen Greatest Hits album, which comes with the coupon what allows you to download the entre album, I used my own audio files to create the Music page.
 
-- Video file:
+- Video file: Youtube video source (https://www.youtube.com/watch?v=bMPOMT251mQ)
 
 ### Assessment
 
