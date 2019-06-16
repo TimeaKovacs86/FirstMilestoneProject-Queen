@@ -48,6 +48,8 @@ This website was made as my first Milestone project at Code Institute. My goal w
  - As a user, I would like to use the navigation bar so I am able to reach every page of the website.
 
  - As a user, I would like to use the "go back" and "go forward" browser button without any error so I can go back and front between the pages more easily.
+ 
+ - As a user, I would like to see a collapsible menu on smaller devices so it would't take up as much space as on larger devices.
 
 ### Social links:
 
@@ -59,16 +61,16 @@ This website was made as my first Milestone project at Code Institute. My goal w
 
 ### Effects:
 
- - As a user, I would like to see the hover effect on the buttons so that I can see there is interaction with that element.
+ - As a user, I would like to see the hover effect (cursor: pointer and change color) on the buttons so that I can see there is interaction with that element.
 
- - As a user, I would like to see the hover effect on the social links so that I can see there is interaction with that element.
+ - As a user, I would like to see the hover effect (cursor: pointer) on the social links so that I can see there is interaction with that element.
 
- - As a user, I would like to see the hover effect on the navigation bar elements so that I can see that there ios an interaction with that element. 
+ - As a user, I would like to see the hover effect (cursor: pointer) on the navigation bar elements so that I can see that there is an interaction with that element. 
  
 ### Media:
 
  - As a user, I would like to play and stop the audio files so I am capable of listening the music.
- - As a user I would like to play and stop the video si I can watch the clip.
+ - As a user I would like to play and stop the video so I can watch the clip.
 
 ### Purchase:
  - As a user I would like to be able to use the "buy ticket" buttons so I can actually can buy tickets for the band events.
@@ -88,7 +90,7 @@ This website was made as my first Milestone project at Code Institute. My goal w
  
  - I used the "font awesome" font and icon toolkit for the social media icons.
  
- - Hover effets on those elements where there is interaction:
+ - Hover effects on those elements where there is interaction:
    - Navigation
    - Buy Ticket buttons
    - Send Request button
@@ -100,6 +102,9 @@ This website was made as my first Milestone project at Code Institute. My goal w
 Because of lack of technology and knowledge (learned only HTML5, CSS3) you only can navigate between the pages and you can reach the outer social sites, as well the actual ticket selling websites for the bands upcoming events. The main feature for this project is the responsive design and implementation of the user centric development.
 
 ### Existing Features
+
+ - Collapsible menu on smaller devices:
+     - Phones less than 768px
 
  - Responsive:
    - Every page is responsive, usable and looks good on the below resolution:
@@ -117,7 +122,7 @@ Because of lack of technology and knowledge (learned only HTML5, CSS3) you only 
      - Spotify
      - Instagram
      
- - Hover effects:
+ - Hover effects (cursor: pointer):
    - On the navigation elements
    - On the buttons
    - On the social links 
@@ -137,7 +142,7 @@ Because of lack of technology and knowledge (learned only HTML5, CSS3) you only 
 ## Technologies Used
 
 - [HTML5](https://www.w3.org/html/)
-    -Hyoertext Markup Language is the standard markup language for creating web pages and web applications.
+    - Hypertext Markup Language is the standard markup language for creating web pages and web applications.
    
 - [CSS3](https://www.w3.org/Style/CSS/)
     - Cascading Style Sheets is a style sheet language used fro describing the presentation of a document written in a markup language like HTML.
@@ -159,7 +164,7 @@ Because of lack of technology and knowledge (learned only HTML5, CSS3) you only 
 
 Thanks to the "GitHub Pages" option on the GitHub website everybody can reach my website through the below link:
 
-https://timeakovacs86.github.io/FirstMilestoneProject-Queen/
+Visit the website: [link](https://timeakovacs86.github.io/FirstMilestoneProject-Queen/)
 
 I prefer the GitHub Pages option instead of the Cloud9 because it is stable and available 24/7.
 
@@ -171,32 +176,35 @@ I prefer the GitHub Pages option instead of the Cloud9 because it is stable and 
    Navigation ("Go back" and "Go forward" browser button)
     - I am on the one page and I click on the another page's link. I click on the "go back" browser button and the expected page will be loaded without any error. 
     After this I click on the "go forward" browser button and the expected page will be loaded without any error.   
-
+  - Collapsible menu:
+    - If the resolution is smaller than 768 px, then a collapsible (hamburger) menu is available instead of the one on larger devices.
 - Social link
-    - I click on the <social_link> social link and the band's <social_link> page will open in a new tab.
+    - I click on one of the social link and the band's page will open in a new tab.
 
 - Responsive
-    - I grab the edge of the browser and modify the resulution. After this the website is still usanle and looks good.
+    - I grab the edge of the browser and modify the resolution. After this the website is still usable and looks good.
     - Chrome developer tools: details below at the **Chrome Developer Tool** section
 
 - Effects
-    - I hover my mouse over the  navigation link,I can see the hover effect.
-    - I hover my mouse over the  social link and I can see the hover effect.
-    - I hover over the buy ticket button and I see the button hover effect. 
+    - I hover my mouse over the  navigation link,I can see the hover effect (cursor: pointer).
+    - I hover my mouse over the  social link and I can see the hover effect (cursor: pointer).
+    - I hover over the buy ticket button and I see the button hover effect (cursor: pointer and change color). 
     
 - Media
-    - I click on "play" button one of the music and it starts to play the music.
+    - I click on "play" button at one of the music audio player and it starts to play the music.
     - While the music is playing I click on the stop button and the music stops.
     - I click on the video player and the video starts to play.
     - While the video is playing I click on the stop button and the video stops.
     
 - Purchase
-    - I click on any of the "buy ticket" button the Events page, and it will open the actual website of the ticket selling company in a new tab in the browser where I can purchase the ticket for the event I was just choose to buy ticket for.     
+    - I click on any of the "buy ticket" buttons on the Events page, and it will open the actual website of the ticket selling company in a new tab in the browser where I can purchase the ticket for the event I was just choose to buy ticket for.     
     
-- Field checking
+- Field checking (Contact Page)
     - I fill the required fields and after clicking the "Send request" button, I can send my message. (At the moment the sending function is not working. Instead of that the page will reloaded).
-    - I fill the e-mail field without e-mail format and I get feedback about the wrong format.
-    - I miss the field and I get a notification that I missed to fill that field.  
+    - I miss to fill the name field and I get feedback about the wrong format when I click on the "Send request" button.
+    - I fill the e-mail field without e-mail format and I get feedback about the wrong format when I click on the "Send request" button.
+    - I miss to fill the phone field and I get feedback about the wrong format when I click on the "Send request" button.
+    - I miss the description field and I get a notification that I missed to fill that field when I click on the "Send request" button.  
 
 **Tested browsers:**
  - Chrome
@@ -269,7 +277,7 @@ How I implement this project:
    - [Wikipedia article](https://en.wikipedia.org/wiki/John_Deacon)
  
  - Favicon:
-   - [QueenOnline.com]((http://www.queenonline.com/global/assets/modules/site/images/favicon.ico?fbclid=IwAR1-ETu3Vx7lzIk0q-3rmbszUlIUyzoHAMFJTbzVw0zOEoO7O80HyQNTw6Q))      
+   - [QueenOnline.com]((http://www.queenonline.com/global/assets/modules/site/images/favicon.ico))      
 
 ### Media
 
