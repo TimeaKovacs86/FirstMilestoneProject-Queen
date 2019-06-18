@@ -47,6 +47,12 @@ a:hover, a:link, a:visited, a:active {
     background: black;
 }
 
+.footer-push-down {
+    background-color: black;
+    height: 620px;
+
+}
+
 /*The Band*/
 
 .row .band-member img {
@@ -216,6 +222,12 @@ footer {
     background-color: white;
 }
 
+@media (min-width: 1367px) {
+    .footer-push-down {
+        display: none;
+    }
+}
+
 @media (min-width: 1246px) {
     .margin-left-large {
         margin-top: 10px;
@@ -261,6 +273,9 @@ footer {
     iframe {
         width: 300px;
         height: 200px;
+    }
+    .footer-push-down {
+        display: none;
     }
 
 }

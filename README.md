@@ -231,6 +231,9 @@ I prefer the GitHub Pages option instead of the Cloud9 because it is stable and 
 - Acquaintance
 - Friends
 - Myself  
+
+Known console log error: 
+  - I recognized a error message which has something to do with the security of the embedded iframe, but it doesn't cause any issues while loading or using the website.
    
 ## Deployment
 
